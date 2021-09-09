@@ -1,20 +1,50 @@
-
- .container{
-    
+.container {
     margin: auto;
     width: 800px;
-    text-shadow: 1px 1px 3px lightslategrey;
+    box-shadow: 0px 1px 25px lightslategrey;
     padding: 0 50px 0 50px;
 }
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.rating {
+    text-align: center;
+    color: #f4b400;
+    size: 25px;
+}
+
 div .container h2 {
     position: relative;
     right: 50%;
 }
-p li{
-    color: #707070;
 
+p li {
+    color: #707070;
 }
 
-header{
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color: lightskyblue;
+}
+
+header {
     text-align: center;
 }
